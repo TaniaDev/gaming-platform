@@ -24,19 +24,47 @@ export const Nav = styled.nav`
     justify-content: space-between;
 `
 
+export const Box = styled.div`
+    display: flex;
+    justify-content: space-between;
+`
+
 export const Button = styled.button`
     color: #FFFFFF;
-    background: #FA9021;
     border: none;
 `
 
 export const ButtonAction = styled(Button)`
+    background: #FA9021;
     border-radius: 4px;
     padding: 8px 24px;
 `
+
+export const ButtonSeeAll = styled(Button)`
+    background: #363636;
+    border-radius: 4px;
+    padding: 8px 24px;
+`
+
 export const ButtonDetails = styled(Button)`
+    background: #FA9021;
     border-radius: 24px;
     padding: 10px 24px;
+`
+
+export const Page = styled.div`
+    padding: 96px 128px 96px 128px;
+
+`
+export const Square = styled.div`
+    width: 210px;
+    height: 210px;
+    background-color: white;
+    margin: 10px;
+`
+
+export const Subtitle = styled.span`
+    font-weight: bolder;
 `
 
 export const Title = styled.h1`
@@ -56,8 +84,6 @@ export const Tag = styled.span`
 
 export const Main = styled.div`
     width: 528px;
-    margin: 96px 0px 96px 128px;
-
 `
 
 export const ImageBackground = styled.span`
