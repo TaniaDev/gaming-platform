@@ -1,3 +1,9 @@
+Landing Page criada como desafio a partir de design criado por Sanoj Dilshan, no [Figma](https://www.figma.com/community/file/1058773912152023976).
+
+Em desenvolvimento...
+![image](https://user-images.githubusercontent.com/60274024/154878479-daaa1e3d-a96d-4be5-b51c-6d12ed1f31b3.png)
+
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
