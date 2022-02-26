@@ -69,7 +69,13 @@ export default function Home () {
                 </Box>
                 <Box>
                     <div>
-                        <Square />
+                        <img src={}/>
+                        <Square>
+                            <Image
+                                src={JoyStick}
+                                alt="Joy Stick"
+                            />
+                        </Square>
                         <Subtitle>
                             40 Followers
                         </Subtitle>

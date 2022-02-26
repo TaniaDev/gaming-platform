@@ -25,8 +25,10 @@ export const Nav = styled.nav`
 `
 
 export const Box = styled.div`
+    margin: 24px 0px 24px 0px;
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
 `
 
 export const Button = styled.button`
@@ -56,11 +58,18 @@ export const Page = styled.div`
     padding: 96px 128px 96px 128px;
 
 `
+
+export const Section = styled.section`
+    display: flex;
+
+`
+
 export const Square = styled.div`
-    width: 210px;
-    height: 210px;
+    width: 16vw;
+    height: 24vh;
     background-color: white;
-    margin: 10px;
+    margin: 16px;
+    border-radius: 24px;
 `
 
 export const Subtitle = styled.span`
